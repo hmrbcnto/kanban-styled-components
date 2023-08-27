@@ -30,10 +30,16 @@ const heading = {
 
 const body = {
     medium: css`
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    `,
+    large: css`
         font-size: 13px;
         font-style: normal;
         font-weight: 500;
-        line-height: 23px; /* 176.923% */
+        line-height: 23px;
     `
 };
 
