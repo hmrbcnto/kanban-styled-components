@@ -4,6 +4,6 @@ import * as BoardRouter from './board';
 
 export const Router: FC = () => {
     const routes = useRoutes([...BoardRouter.routes]);
-    console.log(routes);
+    
     return <>{routes}</>
 };
